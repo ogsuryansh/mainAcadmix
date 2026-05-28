@@ -11,9 +11,22 @@ const protect = async (req, res, next) => {
   if (!token) return res.status(401).json({ message: 'Not authorized, no token' })
   try {
     const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    
+    // Check for Env-based Admin Backdoor Token
+    if (decoded.id === 'super-admin-env') {
+      req.user = {
+        _id: 'super-admin-env',
+        name: 'Super Admin',
+        email: process.env.ADMIN_EMAIL || 'admin@acadmix.com',
+        role: 'admin'
+      }
+      return next()
+    }
+
     req.user = await User.findById(decoded.id).select('-password')
+    if (!req.user) throw new Error('User not found')
     next()
-  } catch {
+  } catch (err) {
     res.status(401).json({ message: 'Token invalid or expired' })
   }
 }
