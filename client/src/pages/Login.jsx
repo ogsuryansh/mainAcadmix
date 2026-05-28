@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { GoogleLogin } from '@react-oauth/google'
+import { API_URL } from '../store/store'
 import '../Auth.css'
 
 function GoogleIcon() {
@@ -132,11 +133,11 @@ export default function Login() {
               <div className="auth-divider-line" />
             </div>
 
-            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '16px' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '16px', width: '100%' }}>
               <GoogleLogin
                 onSuccess={async (credentialResponse) => {
                   try {
-                    const res = await fetch('http://localhost:5000/api/auth/google', {
+                    const res = await fetch(`${API_URL}/auth/google`, {
                       method: 'POST',
                       headers: { 'Content-Type': 'application/json' },
                       body: JSON.stringify({ token: credentialResponse.credential }),
@@ -156,7 +157,6 @@ export default function Login() {
                 theme="outline"
                 size="large"
                 text="continue_with"
-                width="100%"
               />
             </div>
 

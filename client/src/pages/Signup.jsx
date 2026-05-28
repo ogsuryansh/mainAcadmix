@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { GoogleLogin } from '@react-oauth/google'
+import { API_URL } from '../store/store'
 import '../Auth.css'
 
 /* ─── Google Icon ─── */
@@ -160,11 +161,11 @@ export default function Signup() {
           )}
 
           <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 16 }}>
-            <GoogleLogin
-              onSuccess={async (credentialResponse) => {
-                try {
-                  const res = await fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:5000/api'}/auth/google`, {
-                    method: 'POST',
+              <GoogleLogin
+                onSuccess={async (credentialResponse) => {
+                  try {
+                    const res = await fetch(`${API_URL}/auth/google`, {
+                      method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ token: credentialResponse.credential }),
                   })
@@ -179,13 +180,12 @@ export default function Signup() {
                   alert('Error connecting to server')
                 }
               }}
-              onError={() => console.log('Signup Failed')}
-              theme="outline"
-              size="large"
-              text="signup_with"
-              width="100%"
-            />
-          </div>
+                onError={() => console.log('Login Failed')}
+                theme="outline"
+                size="large"
+                text="continue_with"
+              />
+            </div>
 
           <div className="auth-divider" style={{ marginBottom: 16 }}>
             <div className="auth-divider-line" />

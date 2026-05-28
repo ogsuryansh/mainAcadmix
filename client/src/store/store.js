@@ -1,6 +1,6 @@
 /* ── Acadmix MongoDB API Store ── */
 
-export const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api'
+export const API_URL = import.meta.env.VITE_API_URL || (window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : 'https://main-acadmix.vercel.app/api')
 
 function getHeaders() {
   try {
