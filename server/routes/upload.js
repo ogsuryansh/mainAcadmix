@@ -7,7 +7,8 @@ const { getGridFSBucket } = require('../config/gridfs')
 const router = express.Router()
 
 // Ensure uploads directory exists
-const uploadDir = path.join(__dirname, '../uploads')
+// Use /tmp for Vercel/Serverless environments, fallback to local uploads dir
+const uploadDir = process.env.VERCEL ? '/tmp' : path.join(__dirname, '../uploads')
 if (!fs.existsSync(uploadDir)) {
   fs.mkdirSync(uploadDir, { recursive: true })
 }
