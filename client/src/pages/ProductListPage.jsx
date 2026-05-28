@@ -11,7 +11,7 @@ const initCashfree = async () => {
 initCashfree()
 
 /* ── Mini product card (reused from Home) ── */
-function ProductCard({ product, purchased = false, onAlreadyPurchased }) {
+export function ProductCard({ product, purchased = false, onAlreadyPurchased }) {
   const ref = useRef(null)
   const visible = useReveal(ref)
   const isFree  = product.price === 0 || product.isFree

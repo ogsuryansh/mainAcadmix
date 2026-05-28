@@ -271,6 +271,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Recent Resources (Dynamic Live Products) */}
+      {products.length > 0 && (
+        <section className="section" style={{ background: '#F9FAFB', borderBottom: '1px solid var(--border)' }}>
+          <div className="section-head centered reveal">
+            <div className="section-tag">New Arrivals</div>
+            <h2 className="section-title">Latest Resources</h2>
+            <p className="section-sub">Freshly uploaded study material for your preparation</p>
+          </div>
+          <div className="cards-grid" style={{ padding: '0 24px', maxWidth: 1200, margin: '0 auto' }}>
+            {products.slice(0, 3).map(p => (
+              <ProductCard
+                key={p._id}
+                product={p}
+                purchased={purchasedIds.has(p._id)}
+                onAlreadyPurchased={showAlreadyPurchasedToast}
+              />
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: 40 }}>
+            <Link to="/notes" className="btn-outline">View All Resources</Link>
+          </div>
+        </section>
+      )}
+
       {/* Countdowns */}
       <section className="section-sm" id="countdown" style={{ paddingTop: '56px' }}>
         <div className="section-head reveal">
