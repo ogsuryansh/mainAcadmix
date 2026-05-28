@@ -40,6 +40,14 @@ router.post('/', upload.single('file'), async (req, res) => {
 
     // 2. MongoDB GridFS Storage (Tier 2)
     try {
+      const mongoose = require('mongoose')
+      if (mongoose.connection.readyState !== 1) {
+        await new Promise(resolve => {
+          if (mongoose.connection.readyState === 1) return resolve()
+          mongoose.connection.once('open', resolve)
+        })
+      }
+
       const gridBucket = getGridFSBucket()
       if (gridBucket) {
         const uploadStream = gridBucket.openUploadStream(uniqueName, {
@@ -61,6 +69,14 @@ router.post('/', upload.single('file'), async (req, res) => {
     }
 
     // 3. Local Storage Fallback (Tier 3 - Mostly for local development)
+    if (process.env.NODE_ENV === 'production' || process.env.VERCEL) {
+      // In Vercel, local storage is impossible. If we reached here, GridFS failed.
+      return res.status(500).json({ 
+        message: 'Cloud Storage (Firebase & GridFS) failed to process the upload. Vercel cannot use local storage.', 
+        error: 'Upload aborted' 
+      })
+    }
+
     const uploadDir = path.join(__dirname, '../uploads')
     if (!fs.existsSync(uploadDir)) fs.mkdirSync(uploadDir, { recursive: true })
     
