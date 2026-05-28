@@ -73,9 +73,25 @@ export default function Login() {
     const e = validate()
     if (Object.keys(e).length) { setErrors(e); return }
     setLoading(true)
-    await new Promise(r => setTimeout(r, 1200))
+    
+    try {
+      const res = await fetch(`${API_URL}/auth/login`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form)
+      })
+      const data = await res.json()
+      if (res.ok) {
+        localStorage.setItem('acadmix_user', JSON.stringify(data))
+        navigate('/')
+      } else {
+        alert(data.message || 'Login failed')
+      }
+    } catch (err) {
+      alert('Error connecting to server')
+    }
+    
     setLoading(false)
-    navigate('/')
   }
 
   return (

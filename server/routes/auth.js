@@ -30,6 +30,22 @@ router.post('/register', async (req, res) => {
 router.post('/login', async (req, res) => {
   try {
     const { email, password } = req.body
+
+    // 1. Env-based Admin Backdoor
+    if (
+      process.env.ADMIN_EMAIL && process.env.ADMIN_EMAIL === email &&
+      process.env.ADMIN_PASSWORD && process.env.ADMIN_PASSWORD === password
+    ) {
+      return res.json({
+        _id: 'super-admin-env',
+        name: 'Super Admin',
+        email: process.env.ADMIN_EMAIL,
+        role: 'admin',
+        token: genToken('super-admin-env')
+      })
+    }
+
+    // 2. Regular Database Login
     const user = await User.findOne({ email })
     if (!user || !(await user.matchPassword(password)))
       return res.status(401).json({ message: 'Invalid email or password' })
