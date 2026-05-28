@@ -30,11 +30,24 @@ export function Sidebar({ collapsed, toggle, mobileOpen, onOverlayClick }) {
   const location = useLocation()
 
   const [user, setUser] = useState(null)
+  const [purchaseCount, setPurchaseCount] = useState(0)
 
   useEffect(() => {
     try {
       const u = localStorage.getItem('acadmix_user')
-      if (u) setUser(JSON.parse(u))
+      if (u) {
+        const parsedUser = JSON.parse(u)
+        setUser(parsedUser)
+        // Fetch purchase count dynamically
+        import('../store/store').then(({ API_URL }) => {
+          fetch(`${API_URL}/orders/my`, { 
+            headers: { Authorization: `Bearer ${parsedUser.token}` } 
+          })
+          .then(res => res.json())
+          .then(data => { if (Array.isArray(data)) setPurchaseCount(data.length) })
+          .catch(() => {})
+        })
+      }
     } catch {}
   }, [])
 
@@ -75,7 +88,11 @@ export function Sidebar({ collapsed, toggle, mobileOpen, onOverlayClick }) {
               <NavLink key={i} to={item.to} className={`sb-item${active ? ' active' : ''}`}>
                 <span className="sb-item-icon">{item.icon}</span>
                 <span className="sb-label">{item.label}</span>
-                {item.badge && <span className="sb-badge">{item.badge}</span>}
+                {item.label === 'My Purchases' && purchaseCount > 0 ? (
+                  <span className="sb-badge">{purchaseCount}</span>
+                ) : (item.badge && item.label !== 'My Purchases') ? (
+                  <span className="sb-badge">{item.badge}</span>
+                ) : null}
               </NavLink>
             )
           })}

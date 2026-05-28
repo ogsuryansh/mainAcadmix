@@ -10,7 +10,10 @@ const protect = async (req, res, next) => {
   }
   if (!token) return res.status(401).json({ message: 'Not authorized, no token' })
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET)
+    if (!process.env.JWT_SECRET) {
+      console.error('CRITICAL: JWT_SECRET is missing in environment variables!')
+    }
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'fallback_secret_to_prevent_crash')
     
     // Check for Env-based Admin Backdoor Token
     if (decoded.id === 'super-admin-env') {
