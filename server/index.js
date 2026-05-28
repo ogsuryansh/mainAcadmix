@@ -10,7 +10,22 @@ const app = express()
 connectDB()
 
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }))
+const allowedOrigins = [
+  process.env.CLIENT_URL,
+  'http://localhost:5173',
+  'http://localhost:5174',
+  'http://localhost:3000'
+]
+app.use(cors({
+  origin: function(origin, callback) {
+    if (!origin) return callback(null, true)
+    if (allowedOrigins.includes(origin) || origin.startsWith('http://localhost:') || origin.endsWith('.netlify.app')) {
+      return callback(null, true)
+    }
+    return callback(new Error('Not allowed by CORS'), false)
+  },
+  credentials: true
+}))
 app.use(express.json({ limit: '10mb' }))
 app.use(express.urlencoded({ limit: '10mb', extended: true }))
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')))

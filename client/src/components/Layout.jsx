@@ -55,7 +55,7 @@ export function Sidebar({ collapsed, toggle, mobileOpen, onOverlayClick }) {
       <aside className={`sidebar${collapsed ? ' collapsed' : ''}${mobileOpen ? ' mobile-open' : ''}`}>
         <div className="sb-head">
           <div className="sb-brand">
-            <div className="sb-icon-logo">A</div>
+            <div className="sb-icon-logo">🎓</div>
             <span className="sb-brand-text">Acadmix</span>
           </div>
           <button className="sb-toggle" onClick={toggle} aria-label="Toggle sidebar">
@@ -136,7 +136,7 @@ export function Navbar({ scrolled, collapsed, onHamburger, mobileOpen }) {
         </button>
 
         <NavLink to="/" className="nav-brand">
-          <div className="nav-logo-icon">A</div>
+          <div className="nav-logo-icon">🎓</div>
           <span>Acadmix</span>
         </NavLink>
       </div>

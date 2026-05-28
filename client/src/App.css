@@ -84,7 +84,7 @@
 .section-sub{color:var(--muted);font-size:.9rem}
 
 /* ── Hero ── */
-.hero{display:flex;align-items:center;gap:60px;padding:72px 48px 60px;background:#fff;border-bottom:1px solid var(--border)}
+.hero{display:flex;align-items:center;gap:24px;padding:24px 16px;background:#fff;border-bottom:1px solid var(--border)}
 .hero-left{flex:1;max-width:540px}
 .hero-tag{display:inline-flex;align-items:center;gap:6px;background:var(--primary-lt);color:var(--primary);font-size:.77rem;font-weight:600;padding:4px 12px;border-radius:20px;margin-bottom:18px}
 .hero-tag-dot{width:6px;height:6px;border-radius:50%;background:var(--primary)}
@@ -97,6 +97,12 @@
 .hero-stat-num{font-size:1.4rem;font-weight:800;color:var(--text);letter-spacing:-.02em}
 .hero-stat-lbl{font-size:.72rem;color:var(--muted);margin-top:1px}
 .hero-stat-div{width:1px;height:30px;background:var(--border)}
+/* Stats Fold Variation */
+.stats-fold-stats{justify-content:center;gap:60px;padding-bottom:20px}
+.stats-fold-stats .hero-stat{align-items:center}
+.stats-fold-stats .hero-stat-num{font-size:2.5rem}
+.stats-fold-stats .hero-stat-lbl{font-size:.9rem}
+.stats-fold-stats .hero-stat-div{height:50px}
 .hero-right{flex:1;display:flex;justify-content:center;align-items:flex-start}
 /* ── Hero Card Cluster ── */
 .hero-cards-cluster{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;width:100%;max-width:400px}
@@ -279,9 +285,8 @@
   /* Navbar */
   .navbar{left:0 !important;padding:0 14px;gap:8px}
   .hamburger{display:flex}
-  /* Hide desktop nav + search; hide duplicate brand logo icon */
+  /* Hide desktop nav + search */
   .nav-links,.nav-search{display:none}
-  .nav-logo-icon{display:none}
   /* Show avatar + logout button but shrink them */
   .btn-login{font-size:.75rem;padding:5px 10px}
   .btn-signup{font-size:.75rem;padding:5px 10px}
@@ -289,14 +294,25 @@
   .sidebar-overlay{display:none}
   .sidebar-overlay.active{display:block}
   /* Hero */
-  .hero{padding:28px 16px 24px;gap:20px;flex-direction:column}
-  .hero-right{display:none}
-  .hero-title{font-size:1.65rem;letter-spacing:-.02em}
-  .hero-sub{font-size:.88rem}
-  .hero-stats{gap:12px;flex-wrap:wrap}
-  .hero-stat-num{font-size:1.1rem}
-  .hero-actions{gap:8px}
-  .hero-actions .btn-primary,.hero-actions .btn-outline{padding:9px 16px;font-size:.83rem}
+  .hero{padding:24px 16px 32px;gap:32px;flex-direction:column;min-height:auto;justify-content:flex-start;text-align:center}
+  .hero-right{display:flex;width:100%;margin-top:10px}
+  .hero-cards-cluster{grid-template-columns:repeat(3,1fr);gap:8px;max-width:100%}
+  .hc-body{padding:6px 8px 8px}
+  .hc-thumb{height:54px;font-size:1.4rem}
+  .hc-title{font-size:.65rem;margin:3px 0 5px;line-height:1.2}
+  .hc-price{font-size:.7rem}
+  .hc-rating{font-size:.6rem}
+  .hc-tag{font-size:.55rem;margin-bottom:2px}
+  .hero-left{display:flex;flex-direction:column;width:100%;max-width:100%;align-items:center}
+  .hero-tag{margin-left:auto;margin-right:auto;margin-top:10px}
+  .hero-title{font-size:2.2rem;line-height:1.25;letter-spacing:-.02em;text-align:center;margin-bottom:45px}
+  .hero-br{display:none}
+  .hero-sub{font-size:1.05rem;line-height:1.6;margin-bottom:43px;text-align:center;max-width:100%}
+  .hero-actions{display:flex;flex-direction:column;gap:12px;width:100%;margin-bottom:0}
+  .hero-actions .btn-primary,.hero-actions .btn-outline{width:100%;justify-content:center;padding:12px 20px;font-size:.95rem}
+  .stats-fold-stats{gap:20px;flex-direction:column;align-items:center;padding-bottom:0}
+  .stats-fold-stats .hero-stat-div{display:none}
+  .stats-fold-stats .hero-stat-num{font-size:2rem}
   /* Sections */
   .section{padding:28px 14px}
   .section-sm{padding:0 14px 28px}
@@ -361,7 +377,6 @@
   .purchases-tabs{gap:3px}
   .pur-actions{flex-direction:column}
   .pur-btn{text-align:center}
-  .nav-brand span{display:none}
 }
 
 /* ── Very small (360px) ── */
