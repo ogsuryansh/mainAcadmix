@@ -143,8 +143,8 @@ function Hero() {
       <div className={`hero-left reveal${visible ? ' visible' : ''}`}>
         <div className="hero-tag"><span className="hero-tag-dot" />Trusted by 10,000+ students</div>
         <h1 className="hero-title">
-          Everything You Need to Crack<br />
-          <span>NEET</span>, <span>JEE</span> &amp; <span>Boards</span>
+          Everything You Need to Crack<br className="mobile-br" />
+          {' '}<span>NEET</span>, <span>JEE</span> &amp; <span>Boards</span>
         </h1>
         <p className="hero-sub">
           Premium notes, digital books and test series — organized in one place. Purchase once, access forever.

@@ -84,7 +84,8 @@
 .section-sub{color:var(--muted);font-size:.9rem}
 
 /* ── Hero ── */
-.hero{display:flex;align-items:center;gap:24px;padding:24px 16px;background:#fff;border-bottom:1px solid var(--border)}
+.hero{display:flex;align-items:center;gap:40px;padding:48px 60px;background:#fff;border-bottom:1px solid var(--border);min-height:calc(100vh - var(--nav-h))}
+.mobile-br{display:none}
 .hero-left{flex:1;max-width:540px}
 .hero-tag{display:inline-flex;align-items:center;gap:6px;background:var(--primary-lt);color:var(--primary);font-size:.77rem;font-weight:600;padding:4px 12px;border-radius:20px;margin-bottom:18px}
 .hero-tag-dot{width:6px;height:6px;border-radius:50%;background:var(--primary)}
@@ -307,6 +308,7 @@
   .hero-tag{margin-left:auto;margin-right:auto;margin-top:10px}
   .hero-title{font-size:2.2rem;line-height:1.25;letter-spacing:-.02em;text-align:center;margin-bottom:45px}
   .hero-br{display:none}
+  .mobile-br{display:block}
   .hero-sub{font-size:1.05rem;line-height:1.6;margin-bottom:43px;text-align:center;max-width:100%}
   .hero-actions{display:flex;flex-direction:column;gap:12px;width:100%;margin-bottom:0}
   .hero-actions .btn-primary,.hero-actions .btn-outline{width:100%;justify-content:center;padding:12px 20px;font-size:.95rem}
