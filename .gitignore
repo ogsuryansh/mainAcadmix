@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+client/dist/
+client/build/
+
+# Environment variables — NEVER commit these
+.env
+server/.env
+client/.env
+client/.env.local
+*.env
+
+# Firebase service account — sensitive key file
+server/firebase-service-account.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Uploads folder (local files, not needed in repo)
+server/uploads/
+
+# Vite cache
+client/.vite/
