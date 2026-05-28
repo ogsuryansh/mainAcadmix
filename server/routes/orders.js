@@ -84,6 +84,7 @@ router.post('/verify-cashfree', protect, async (req, res) => {
 // GET /api/orders/my — user's own purchases
 router.get('/my', protect, async (req, res) => {
   try {
+    if (req.user._id === 'super-admin-env') return res.json([])
     const orders = await Order.find({ user: req.user._id })
       .populate('product').sort({ createdAt: -1 })
     res.json(orders)
