@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { load } from '@cashfreepayments/cashfree-js'
 import { getProducts, API_URL } from '../store/store'
 import { useReveal } from '../hooks'
@@ -115,7 +115,17 @@ export default function ProductListPage({ filterType, filterExam }) {
   const [exam, setExam]                 = useState('All')
   const [subject, setSubject]           = useState('All')
   const [sort, setSort]                 = useState('default')
-  const [search, setSearch]             = useState('')
+  const [searchParams, setSearchParams] = useSearchParams()
+  const search = searchParams.get('search') || ''
+  const setSearch = (val) => {
+    const params = new URLSearchParams(searchParams)
+    if (val) {
+      params.set('search', val)
+    } else {
+      params.delete('search')
+    }
+    setSearchParams(params, { replace: true })
+  }
   const [toast, setToast]               = useState(false)
 
   const meta = filterType ? TYPE_META[filterType] : EXAM_META[filterExam]

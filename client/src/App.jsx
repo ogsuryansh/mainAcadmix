@@ -14,6 +14,7 @@ import AdminUpload from './pages/admin/AdminUpload'
 import AdminMyUploads from './pages/admin/AdminMyUploads'
 import AdminGuard from './components/AdminGuard'
 import ProductListPage from './pages/ProductListPage'
+import OMRScanner from './pages/OMRScanner'
 import './App.css'
 
 function PlaceholderPage({ title }) {
@@ -86,6 +87,7 @@ function MainLayout() {
             <Route path="/jee"         element={<ProductListPage filterExam="JEE" />} />
             <Route path="/boards"      element={<ProductListPage filterExam="Boards" />} />
             <Route path="/saved"       element={<PlaceholderPage title="Saved Items" />} />
+            <Route path="/omr"         element={<OMRScanner />} />
             <Route path="*"            element={<PlaceholderPage title="Page Not Found" />} />
           </Routes>
         </main>
