@@ -31,14 +31,17 @@ export default function CBTTestRunner() {
       })
   }, [id])
 
-  // Fix PDF URL (handle localhost refused to connect if backend is not on localhost:5000)
+  // Fix PDF URL to load relatively from the frontend's public folder
   const resolvedPdfUrl = useMemo(() => {
     if (!test?.pdfUrl) return ''
-    if (test.pdfUrl.startsWith('http://localhost:5000')) {
-      const baseUrl = API_URL.replace('/api', '')
-      return test.pdfUrl.replace('http://localhost:5000', baseUrl)
+    try {
+      // Convert absolute URL to relative path (e.g., /uploads/filename.pdf)
+      // This ensures it loads from the React app's public folder which works on Vercel.
+      const urlObj = new URL(test.pdfUrl)
+      return urlObj.pathname
+    } catch {
+      return test.pdfUrl
     }
-    return test.pdfUrl
   }, [test?.pdfUrl])
 
   const handleSelect = (qNum, option) => {
