@@ -1,0 +1,1402 @@
+ 
+(1) 01/07/2026   
+ 
+Corporate  Office : AESL , 3rd Floor, Incuspaze Campus -2, Plot no. 13, Sector -18, Udyog Vihar, Gurugram, Haryana -12201 5 
+FORTNIGHTLY TEST FOR NEET -2027 (XII PASSED) PH -2  
+MM: 720 FT-01 Time: 180 Mins.  
+ 
+Answer s 
+1. (3) 
+2. (1) 
+3. (4) 
+4. (4) 
+5. (2) 
+6. (2) 
+7. (1) 
+8. (1) 
+9. (4) 
+10. (1) 
+11. (2) 
+12. (2) 
+13. (1) 
+14. (2) 
+15. (4) 
+16. (1) 
+17. (4) 
+18. (1) 
+19. (1) 
+20. (2) 
+21. (4) 
+22. (3) 
+23. (2) 
+24. (2) 
+25. (3) 
+26. (4) 
+27. (1) 
+28. (4) 
+29. (4) 
+30. (2) 
+31. (4) 
+32. (1) 
+33. (1) 
+34. (3) 
+35. (2) 
+36. (4) 37. (4) 
+38. (2) 
+39. (4) 
+40. (2) 
+41. (1) 
+42. (2) 
+43. (3) 
+44. (3) 
+45. (1) 
+46. (3) 
+47. (3) 
+48. (2) 
+49. (3) 
+50. (3) 
+51. (2) 
+52. (4) 
+53. (4) 
+54. (3) 
+55. (2) 
+56. (4) 
+57. (4) 
+58. (1) 
+59. (1) 
+60. (3) 
+61. (4) 
+62. (1) 
+63. (3) 
+64. (2) 
+65. (3) 
+66. (2) 
+67. (3) 
+68. (4) 
+69. (2) 
+70. (3) 
+71. (3) 
+72. (1) 73. (1) 
+74. (1) 
+75. (1) 
+76. (3) 
+77. (3) 
+78. (1) 
+79. (3) 
+80. (2) 
+81. (3) 
+82. (2) 
+83. (1) 
+84. (4) 
+85. (3) 
+86. (2) 
+87. (2) 
+88. (2) 
+89. (4) 
+90. (3) 
+91. (3) 
+92. (3) 
+93. (2) 
+94. (2) 
+95. (3) 
+96. (3) 
+97. (2) 
+98. (1) 
+99. (2) 
+100. (4) 
+101. (3) 
+102. (3) 
+103. (4) 
+104. (4) 
+105. (3) 
+106. (4) 
+107. (3) 
+108. (2) 109. (1) 
+110. (1) 
+111. (3) 
+112. (2) 
+113. (4) 
+114. (4) 
+115. (4) 
+116. (2) 
+117. (3) 
+118. (2) 
+119. (2) 
+120. (2) 
+121. (4) 
+122. (2) 
+123. (3) 
+124. (4) 
+125. (3) 
+126. (3) 
+127. (3) 
+128. (2) 
+129. (3) 
+130. (1) 
+131. (2) 
+132. (1) 
+133. (2) 
+134. (3) 
+135. (1) 
+136. (1) 
+137. (4) 
+138. (1) 
+139. (4) 
+140. (4) 
+141. (4) 
+142. (2) 
+143. (4) 
+144. (4) 145. (3) 
+146. (3) 
+147. (2) 
+148. (1) 
+149. (1) 
+150. (3) 
+151. (2) 
+152. (3) 
+153. (1) 
+154. (1) 
+155. (4) 
+156. (4) 
+157. (1) 
+158. (3) 
+159. (2) 
+160. (1) 
+161. (3) 
+162. (2) 
+163. (3) 
+164. (4) 
+165. (2) 
+166. (3) 
+167. (2) 
+168. (3) 
+169. (4) 
+170. (3) 
+171. (1) 
+172. (4) 
+173. (2) 
+174. (1) 
+175. (2) 
+176. (2) 
+177. (4) 
+178. (1) 
+179. (4) 
+180. (2) 
+ 
+CODE -B 
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+5Hints and Solutions
+PHYSICS
+(1) Answer :  (3)
+Solution:
+ 
+Req =   
+(2) Answer :  (1)
+Solution:
+KE =  
+(3) Answer :  (4)
+Hint:
+Using rules of significant figures.
+Solution:
+= 31 (two significant figures)
+(4) Answer :  (4)
+Solution:
+1.001 m is closest to 1 m
+(5) Answer :  (2)
+Solution:
+a = 1.2 m
+A = a2 = 1.2 × 1.2 = 1.44 m2
+A ≈ 1.4 m2
+(6) Answer :  (2)
+Solution:
+Dimensional correctness of a relation does not ensure its physical correctness.
+(7) Answer :  (1)
+Hint:
+Use rules of round of f.
+Solution: =  +  = 5 + 10 = 15Ω ReqR1R2
+Δ Δ  + Δ  = 0.2 + 0.1 = 0.3 R1R2
+ =  × 100 = 2%ΔReq
+Req0.3
+15
+P2
+2m
+×100=2( ×100)ΔKE
+KEΔP
+P
+×100%=2×1.5%=3%ΔKE
+KE
+=31.1262.24
+2.0
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+6
+(8) Answer :  (1)
+Solution:
+9.99 – 0.009 = 9.981 should be reported to least no of decimal places so answer should be 9.98 m.
+(9) Answer :  (4)
+Solution:
+Angular momentum, 
+∴ Unit of angular momentum ( L) is same as Planck's constant.
+E = hf ⇒ 
+∴ Unit of  is same as Planck's constant.
+(10) Answer :  (1)
+Solution:
+True value = Mean value  =10 cm
+(11) Answer :  (2)
+Solution:
+By theory 
+(12) Answer :  (2)
+Solution:
+Maximum % error in   
+= 9%
+(13) Answer :  (1)
+Hint:
+Use principle of homogeneity .
+Solution:
+⇒  
+(14) Answer :  (2)
+Hint:
+Solution:
+Pitch = 50 × 0.01 = 0.5 mm
+(15) Answer :  (4)L = nh
+2π
+h = E
+f
+Energy
+Frequency
+=10+11+10+10+9
+5
+P=[2+2+(4×2)]+31
+2
+[a]=[pt]=[ ]q
++rt2
+[p]=[]  and  [q]=[a] and [r]=[]a
+tt2t2
+[]=[ ]=[]=[]pr
+q×a
+tt2
+at21
+tT–1
+=Least countPitch
+Number of division on circular scale
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+7Hint:
+Principle of Homogeneity
+Solution:
+If A and B have same dimensions then they can be either added or subtracted while C can be either divided or multiplied with
+them.
+(16) Answer :  (1)
+Solution:
+Velocity → [L T–1] 
+Acceleration → [L T–2] 
+Force → [ML T–2] 
+Pressure → [ML–1T–2]
+(17) Answer :  (4)
+Hint:
+Time constant ( ) = RC
+Solution:
+[Q] = [current] [time]
+[current] = 
+(18) Answer :  (1)
+Solution:
+Reading = MSR + (CSR)LC
+= 6 + 51(0.01)
+= 6.51 mm
+(19) Answer :  (1)
+Solution:
+Least Count = 1 MSD – 1 VSD
+= 2   = 0.2 mm
+Zero error = – (10 – 5) × 0.2 mm
+= –1.0 mm
+(20) Answer :  (2)
+Hint:
+Reading = MSR + (L.C.) × VSD
+Solution:
+L.C. = 1 MSD – 1 VSD
+Reading  = 25.5 mm
+(21) Answer :  (4)
+Solution:
+L.C = 1 MSD –1VSD
+& 5 VSD = 4 MSD
+∴L.C =  
+(22) Answer :  (3)
+Solution:
+Since acceleration is constant, hence its average value is equal to g.
+Average speed < v >  
+(23) Answer :  (2)
+Solution:τ
+[ ]=[]Q
+timeQ
+RC
+(1−)9
+10
+=1– MSD18
+20
+= mm1
+10
+=25+5×1
+10
+(1−)4
+51 cm
+8
+L.C=(×)cm=  mm1
+51
+81
+4
+= =Total distance
+Total time2H
+T
+<v>= =2×v2
+2g
+2v
+gv
+2
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+8Given, t2 – t1 = 10 s
+⇒ 2t2 = 20.4  
+⇒   t2 = 10.2 s  
+          t1 = 0.2 s  
+So,  
+ 
+⇒ 1 × 10.2 = h ⇒  
+(24) Answer :  (2)
+Solution:
+S2.5 – S2 = ? (distance travelled in 5th half second)
+So,   
+(25) Answer :  (3)
+Solution:
+Required =    
+(26) Answer :  (4)
+Solution:
+Average acceleration < a> = 
+∴ <a> = 0
+Total displacement = 
+Average velocity 
+(27) Answer :  (1)
+Solution:
+(v2 – 0) = –4( t – 2)
+v2 = 8 – 4 t
+At t = 1 s, v2 = 8 – 4
+v = ± 2 m/s
+ 
+(28) Answer :  (4)
+Solution:
+x2 = 2t2 + 6t
+Differentiating 2x  = 4t + 6+= = =10.4 t2t12u
+g2×52
+10
+=t1t22h
+g
+0.2×10.2=2×h
+10
+10.2m=h
+=ut+a S2.51
+2t2
+⇒ =×2× =6.25 m  (∵u = 0) S2.51
+2(2.5)2
+=×2×4=4 m S21
+2
+–=2.25 m S2.5S2
+== =2s tmeeth
+u100
+50
+ut− =50×2−×10×1
+2gt2 1
+222=100−20=80 m
+Final velocity – Initial velocity
+Total time
+(×2×4)+[(6–2)×4]+(×2×4)=24m1
+21
+2
+<v> =  Displacement
+Time
+<v> =  = 3 m/s24
+8
+2v=0−4dv
+dt
+2×(±2) =−4dv
+dt
+=±1dv
+dt m/s2
+ = 1 ∣∣dv
+dt∣∣  m/s2
+2xdx
+dt
+v= =2(2t+3)
+2x2t+3
+x
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+9(29) Answer :  (4)
+Solution:
+For part PQ,  
+If h is further height, then
+(30) Answer :  (2)
+Solution:
+For uniformly accelerated motion in straight line
+(31) Answer :  (4)
+Hint:
+Where a is retardation due to air drag only .
+Solution:
+When body is moving upward air friction is acting downward. So
+where a is retardation due to air friction only .
+⇒  
+Height attained  
+For downward journey , air friction acts upwards. So time of descent
+(32) Answer :  (1)
+Solution:
+During t = 0 to t = 4 s, the slope of x-t graph is zero four times means the particle is at rest four times.
+(33) Answer :  (1)
+Solution:
+v = kx3/2  
+a =   
+∴ Graph is parabola 
+(34) Answer :  (3)
+Solution:−=2as v2u2
+−(2v=2(−g)2 v2)2
+−3=−4gv2
+= ⇒v= v24g
+34g
+3−−
+√
+− =2(−g)h O2( )4g
+3−−
+√2
+−=−2gh⇒h=m4g
+32
+3
+=vavgu+v
+2
+= = vavg0+(0+at)
+2at
+2
+=taU
+(g+a)
+= ; taU
+(g+a)
+1= ⇒a=15−10=515
+(10+a) m/s2
+H=(15)×1=7.5 m.1
+2
+= = = =1.7 s td2H
+(g−a)−−−−
+√15
+(10−5)−−−−−
+√ 3–√
+a=v,  =k⋅dv
+dxdv
+dx3
+2x1/2
+3
+2k2x2
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+10vA = tan 37°,      vB = –tan 37°  
+=                             
+vAB = vA – vB =  
+(35) Answer :  (2)
+Solution:
+Area under the a – t curve should be zero.
+(36) Answer :  (4)
+Solution:
+Vav =  = 18 kmph
+(37) Answer :  (4)
+Solution:
+Acceleration is positive in all three cases.
+(38) Answer :  (2)
+Solution:
+Acceleration is positive in interval   and velocity is negative
+(39) Answer :  (4)
+Solution:
+In this case, the minimum velocity of bullet to hit the car must be  
+⇒  
+but, velocity is 200 m/s hence, it will not hit thief's car .
+(40) Answer :  (2)
+Solution:
+Area under velocity-time graph gives displacement and in one dimensional motion, constant speed in an interval have zero
+acceleration.
+(41) Answer :  (1)
+Solution:
+The zero velocity of a particle at any instant does not necessarily imply zero acceleration at that instant.
+⇒ | Displacement | ≤ Distance
+⇒ For a uniform motion, velocity is constant.
+⇒ For uniform accelerated motion,
+Position-time graph is a parabola.
+(42) Answer :  (2)
+Solution:
+Change in velocity –Area under acceleration vs time curve
+Acceleration –Slope of velocity vs time curve
+Displacement –Area under velocity vs time curve
+Instantaneous velocity –Slope of position vs time curve
+(43) Answer :  (3)
+Solution:
+Make velocity time graph of given condition,3
+4=−3
+4
+ m/s3
+2
+3 S
+++S
+60S
+20S
+10
+a= =2t–1dv
+dt
+<t<11
+2
+2ad−−−√
+v=2×20×2000− − −−−−−−−−−√
+v= =2×100 m/s 8×104− −−−−−√ 2–√
+x = ut + a1
+2t2
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+11
+...(i)
+ 
+⇒  
+[From equation (i)]
+⇒  
+⇒  
+(44) Answer :  (3)
+Solution:
+Displacement is given by area under velocity-time graph 
+Displacement covered by I is more than II is not true at all times.
+(45) Answer :  (1)
+Solution:
+Acceleration of bolt with respect to elevator when bolt starts falling is  
+ downward  
+Initial relative velocity = 0  
+Displacement travelled by bolt with respect to elevator is  
+CHEMISTR Y
+(46) Answer :  (3)
+Solution:
+For ionic solid, formula mass is used instead of molecular mass.
+(47) Answer :  (3)
+Hint:
+Mass of 1 atom of He = 4 u
+Mass of 4 atoms of He = 4 × 4 = 16 u
+(48) Answer :  (2)
+Solution:
+Empirical formula is the simplest whole number ratio of elements present in a compound.
+Element % Mole Ratio
+C 40
+H 6.67
+O 53.3
+Empirical formula is CH 2O
+(49) Answer :  (3)tan = =α1v0
+t1a1
+tan = = α2v0
+t–t1a2+=tv0
+a2t1
++ =tv0
+a2v0
+a1
+( )=t v0+a1a2
+a1a2
+=v0ta1a2
++a1a2
+=10−(−2)  =12 m/ aBE s2
+=1.2 m SBE
+× ×=1
+2aBEt2SBE
+t=  =s2×1.2
+12−−−−
+√1
+5√
+=3.3340
+12=13.33
+3.33
+=6.676.67
+1=26.67
+3.33
+=3.3353.3
+16=13.33
+3.33
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+12Solution:
+Precision refers to the closeness of various measurements for the same quantity .
+Accuracy refers to agreement of a particular value to the true value of the result.
+(50) Answer :  (3)
+Solution:
+Moles of CH 4 =   = 0.1 mol
+Number of electrons of CH 4 = 0.1 × 10 × N A
+= 6 × 1023
+(51) Answer :  (2)
+Hint:
+Concentration terms involving volume are temperature dependent.
+(52) Answer :  (4)
+Solution:
+Pure substance have a fixed composition. Example: Carbon dioxide
+(53) Answer :  (4)
+Hint:
+One molecule of Biomolecule should contain one atom of Zn.
+Solution:
+∴ Minimum molar mass of biomolecule 
+=  8717.33 g/mol
+(54) Answer :  (3)
+Solution:
+Let the percentage abundances of two isotopes are x and (100 – x) respectively .
+        12.2 =  
+          1220 = 12x + 1300 – 13x
+          x = 80%
+        Percentage abundance of 2nd isotope
+        = 100 – 80 = 20%
+(55) Answer :  (2)
+Solution:
+Mass of 1 mol (6.022 × 1023 atoms) of H 2O molecules = 18 g
+     Mass of 1 H 2O 
+ molecule = g  
+(56) Answer :  (4)
+Hint:
+Number of atoms = Moles × N A × Atomicity
+Solution:
+Let mass of each of S 2 and S 8 taken be x g
+S2  S8  
+Moles =  
+Molecules =  
+Let mass of each O 2 and O 3 taken be x g
+Number of atoms in O 2 molecule  
+Number of atoms in O 3 molecule  
+(57) Answer :  (4)
+Solution:
+Number Significant figures1.6
+16
+% of Zn= ×100Number of Zn atom×65.38
+wt. of biomolecule
+0.75= ×1001×65.38
+MW
+=65.38×100
+0.75
+(x × 12) + (100 – x) × 13
+100
+⇒
+⇒
+∴
+∴
+ ≈ 3 × 18
+6.022 × 102310–23
+x
+32×2x
+32×8
+×x
+32×2NA ×x
+32×8NA
+= ×2=x
+16×2NAx
+16NA
+= ×3=x
+16×3NAx
+16NA
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+132.005 4
+1.32 × 1023
+4.9500 5
+0.0024 2
+(58) Answer :  (1)
+Solution:
+Moles of acetic acid =   = 10–3 moles  
+Molarity  =  
+(59) Answer :  (1)
+Solution:
+1 × 500 = 0.2 × V 2 
+V2 = 2500  
+∴ Volume of water added  
+= 2500 – 500 = 2000 mL = 2 L
+(60) Answer :  (3)
+Solution:
+1 mole of NO 2 will occupy 22.4 L at STP .
+(61) Answer :  (4)
+Solution:
+M1V1 + M2V2 = M3V3.
+100 × 5 + 800 × 2.5 = M 3 × (100 + 800)
+(62) Answer :  (1)
+Solution:
+In 1 kg of 0.1 molal glucose solution, mass of glucose = 180 g  
+∴ Mass of solution = 1000 + 180 = 1180  
+⇒ 1180 g of glucose solution ≡ 180 g glucose  
+∴ 2000 g of glucose solution  
+(63) Answer :  (3)
+Solution:
+3BaCl 2 + 2Na 3PO4 → Ba 3(PO4)2 + 6NaCl
+0.3 mole of BaCl 2 combines with 0.2 mole of Na 3PO4. Therefore, BaCl 2 is limiting reactant.
+0.3 mole of BaCl 2 will produce 0.1 mole of Ba 3(PO4)2 and 0.6 mole of NaCl.
+(64) Answer :  (2)
+Solution:
+(65) Answer :  (3)
+Solution:
+In (NH 4)3PO4 12 moles of ‘H’ are present with 4 moles of oxygen atom.
+∴ 3.18 moles of ‘H’ are present with =    = 1.06 moles of oxygen atom.
+(66) Answer :  (2)
+Hint:
+CaCO 3 decomposes on heating into CaO and CO 2.
+Solution:
+CaCO 3(s) ⇌  CaO(s) + CO 2(g)
+1 mol that is 100 g CaCO 3 gives → 22.4 L CO 2
+Volume of CO 2 =  6.022 × 1020
+6.022 × 1023
+ × 1000  = 2 × M = 0.002 M10–3
+50010–3
+Density= = =2.05 g/LMolar mass
+Molar volume46
+22.4
+= =2.78 M M3500+2000
+900
+= ×2000 ≈305g180
+1180
+ +  2(g) H2
+2 Volume(g) O2
+1 Volume→2OH2
+ × 3.184
+12
+× ×22.4=2.8 L50
+10025
+100
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+14(67) Answer :  (3)
+Solution:
+100 g solution would have 49 g H 2SO4
+Number of mole of  
+Density of solution  
+= 10 mol/l
+(68) Answer :  (4)
+Hint:
+Atoms are conserved in chemical reactions.
+(69) Answer :  (2)
+Solution:
+As per the law of multiple proportions, if two elements combine to form more than one compound the masses of one element
+that combine with a fixed mass of the other element, are in the ratio of small whole numbers.
+(70) Answer :  (3)
+Solution:
+• Number of Mg atoms =  
+• Number of O atoms =  
+• Number of Li atoms =  
+• Number of Ag atoms =  
+(71) Answer :  (3)
+Solution:
+Urea (NH 2CONH 2):
+% of C =  = 20%
+Glucose (C 6H12O6):
+% of C =   = 40%
+Methane (CH 4):
+% of C =   = 75%
+Carbon dioxide
+% of C =   = 27.2%
+(72) Answer :  (1)
+Hint:
+'H2' is the limiting reactant.
+Solution:
+Number of moles of NH 3 formed is decided only by H 2. Number of moles of NH 3 formed
+=   = 1
+1 mole NH 3(g) formed
+i.e. 22.4 L NH 3(g) formed
+(73) Answer :  (1)
+Hint:
+Left moles of CO 2 can be calculated as
+mole left = Initial mole – Removal moles
+Solution:
+Remaining molecules of CO 2 =  
+= (3 × 1021) – (3 × 1020)
+= 27 ×1020= =0.5 H2SO449
+98
+=Mass of solution
+Volume of solution
+2=100
+V(mL)
+Molarity= ×10000.5
+50
+×1
+24NA
+×2×1
+32NA
+×1
+7NA
+×1
+108NA
+ × 10012
+60
+ × 10012 × 6
+180
+ × 10012
+16
+ × 10012
+44
++3 2N N2H2⇌ H2
+ 1      3/2    
+×2
+33
+2
+(× ×6× )–3×220
+4410–310231020
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+15= 2.7 ×1021
+Remaining atoms of CO 2 = 2.7 × 1021 × 3
+= 8.1 × 1021
+(74) Answer :  (1)
+Solution:
+a. 18 g C 6H12O6
+Number of oxygen atoms
+=  
+= 0.6 N A
+b. 44.8 L NO 2 gas at STP
+Number of oxygen atoms
+=  
+c. 1.225 g KClO 3
+Number of oxygen atoms
+d. 11.2 L CO gas at STP
+Number of oxygen atoms
+(75) Answer :  (1)
+Solution:
+Na2SO4 → 2Na+
+ moles of Na 2SO4
+2 × 0.0125 = 0.0250 = 2.5 × 10–2 moles of Na+
+(76) Answer :  (3)
+Solution:
+2A + B = 80 …(i)  
+2A + 3B = 100 …(ii)  
+From equations (i) and (ii)  
+A = 35 u and B = 10 u
+(77) Answer :  (3)
+Solution:
+Mass of 1 atom = 1.8 × 10–22 g 
+Mass of 6.022 ×1023 atoms  
+= 1.8 × 10–22 × 6.022 ×1023 = 108.39 g  
+= Atomic mass
+(78) Answer :  (1)
+Hint:
+Solution:
+nurea = 1
+(79) Answer :  (3)
+Hint:
+Mole of   
+Solution:
+Mole of  
+Mole of O atoms  
+Number of O atoms = 2 × 10–2 × NA×6×18
+180NA
+×2× =4 44.8
+22.4NA NA
+= ×3× =0.03 1.225
+122.5NA NA
+= ×1× =0.5 11.2
+22.4NA NA
+0.05×  mole = 0.0125250
+1000
+Molality (m)=Mole of solute
+wt. of solvent (kg)
+=1 kg=1000g WOH2
+= = = =0.018 Xurean
+n+N1
+1+1000
+181
+56.55
+=CO2Volume of  at STP CO2
+Molar volume at STP
+=CO2224
+22400
+= ×2=2×224
+2240010−2
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+16(80) Answer :  (2)
+Solution:
+Let the temperature be x
+x = –40
+(81) Answer :  (3)
+Solution:
+Final volume = 1 – x + 2x = 1.4 L   
+∴   
+∴ Volume of CO = 2x = 2 × 0.4 = 0.8 L  
+Volume of CO 2 = (1 – x) = 1 – 0.4 = 0.6 L  
+(82) Answer :  (2)
+Solution:
+The SI unit for amount of substance is mole.
+The SI unit for mass is kg.
+(83) Answer :  (1)
+Solution:
+P4 + 5O→ P 4O10
+31g
+   mol P 4 gives   mol P 4O10 for 100% yield or   mol P 4O10 when 60% yield
+Mol of   mol
+Mass of P 4O10 = n × M o =  
+(because MW (P 4O10) = (31 × 4) + (16 ×10) = 284)
+(84) Answer :  (4)
+Hint:
+Multiple for giga is 109
+Solution:
+Prefix Multiple
+Mega 106
+Giga 109
+Exa 1018
+Tera 1012
+(85) Answer :  (3)
+Solution:
+Compound Molecular
+formulaEmpirical
+formula
+Benzene C6H6 CH
+Ethyne C2H2 CH
+Cyclohexane C6H12 CH2
+Propyne C3H4 C3H4
+(86) Answer :  (2)
+Hint:°F=(°C)+329
+5
+x=x+329
+5
+–=324x
+5
+x=0.4L
+1
+41
+4×1
+460
+100
+=× P4O101
+460
+100
+× ×284=42.6 g1
+460
+100
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+17Solution:
+Mole of Mg = mole of H 2
+wt. of Mg = 0.12 g
+(87) Answer :  (2)
+Solution:
+Let the mass of NaOH dissolved = xg
+ Mass% = 20 =  
+ 1200 + 20 x = 100 x
+ 
+(88) Answer :  (2)
+Solution:
+Mass of 1 mole of CO = 28 g
+Mass of 0.25 mol of CO = 7 g
+(89) Answer :  (4)
+Solution:
+1 mol N 2   2 mol NO   2 mol NO 2
+ 0.5 mol N 2   1 mol NO   1 mol NO 2
+Mass of NO 2 = 1 × 46 = 46 g
+(90) Answer :  (3)
+Hint:
+Solution:
+Moles of HCl = 
+1 mol of HCl requires 1 mole of NaOH as per given equation.
+Hence mass of NaOH = 0.005 × 40 = 0.2 g
+BOTANY
+(91) Answer :  (3)
+Hint:
+Lipid molecules of plasma membrane have polar head and non-polar tail.
+Solution:
+Polar head is hydrophilic in nature and it interacts with water . Rest all the statements regarding plasma membranes are true.
+(92) Answer :  (3)
+Solution:
+Small hair like structures, which work like oars causing the movement of either the cell or surrounding fluid is cilia.
+(93) Answer :  (2)
+Solution:
+Chromosomes having one shorter arm and one longer arm exhibit L-shape during anaphase. Such chromosomes are called
+sub-metacentric.
+(94) Answer :  (2)
+Hint:
+Hub in centriole is proteinaceous.
+Solution:
+The central part of the proximal region of the centriole is proteinaceous and called the hub.
+(95) Answer :  (3)
+Solution: +   →  + Mg
+(s)H2SO4
+(aq.)MgSO4
+(aq.)H2
+(g)
+=wt.
+24112
+22400
+∴  × 100x
+(60 + x)
+⇒
+∴x =  ⇒ 15 g1200
+80
+n= =0.25 mol1.5055×1023
+6.022×1023
+≡ ≡
+∴ ≡ ≡
+Molarity =nsolute
+Volume of solution (in L)
+⇒0.0050.01×500
+1000
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+18Chloroplasts and mitochondria are semi-autonomous cell organelles. 
+Mitochondria, chloroplast and bacteria, all have double stranded circular DNA, 70S ribosomes and has the ability to self
+duplicate.
+(96) Answer :  (3)
+Solution:
+In plants, Golgi apparatus is made up of unconnected units called dictyosome.
+(97) Answer :  (2)
+Solution:
+Chromoplasts are coloured plastids. They are formed either from leucoplasts or chloroplasts.
+(98) Answer :  (1)
+Solution:
+Microbodies are present in both animals and plants.
+(99) Answer :  (2)
+Solution:
+Eukaryotic flagella typically have a "9 + 2" arrangement of microtubules.
+In eukaryotic flagella, there are 20 microtubules.
+(100) Answer :  (4)
+Solution:
+Chromatin contains DNA and some basic proteins called histones. The cell wall and middle lamellae may traversed by
+plasmodesmata which connect the cytoplasm of neighbouring cells.
+(101) Answer :  (3)
+Solution:
+Lysosomes contain hydrolytic enzymes which become active at acidic pH.
+If pH in lysosomes is increased to alkaline or basic then hydrolytic enzymes will become inactive.
+(102) Answer :  (3)
+Hint:
+The plasmid DNA confers certain unique phenotypic characters, such as resistance to antibiotics, to some bacteria.
+Solution:
+Bacteria are prokaryotes and prokaryotes have double stranded circular DNA as genetic material.
+(103) Answer :  (4)
+Hint:
+Active transport is an energy dependent process of cell membrane.
+Solution:
+Cell wall protects the cells from bursting, functions as barrier to undesirable macromolecules and also protects the cell from
+infections.
+(104) Answer :  (4)
+Solution:
+The shape of mesophyll cell is round and oval.
+(105) Answer :  (3)
+Solution:
+Rudolf V irchow explained that cells divide and new cells are formed from the pre-existing cells ( Omnis cellula-e cellula ).
+(106) Answer :  (4)
+Hint:
+Schwann proposed hypothesis that the bodies of animals and plants are composed of cell and product of cell.
+Solution:
+Theodore Schwann studied dif ferent type of animal cells and reported that cell had a thin outer layer .
+(107) Answer :  (3)
+Solution:
+Thick and tough glycocalyx is called capsule. It is present in some bacteria.
+(108) Answer :  (2)
+Hint:
+The size of a typical bacterium is generally 3-5 μm.
+Solution:
+Mycoplasma , the smallest cell, is only 0.3 μm long and it lacks a nuclear membrane.
+(109) Answer :  (1)
+Solution:
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+19Golgi apparatus was first observed and described by Camillo Golgi. Camillo Golgi described Golgi apparatus as a densely
+stained reticular structures present near the nucleus of the cell. Therefore, these were given the name Golgi body , after his
+name.
+(110) Answer :  (1)
+Solution:
+Cytoplasm is the main arena of cellular activities. It is the semi-fluid matrix and contains many cell organelles.
+(111) Answer :  (3)
+Solution:
+In some prokaryotes like cyanobacteria, there are other membranous extensions into the cytoplasm called chromatophores
+which contain pigments.
+(112) Answer :  (2)
+Solution:
+Leeuwenhoek was the first to observe a living cell.
+(113) Answer :  (4)
+Solution:
+The membrane of RBCs in human beings is composed of approx. 52% protein and 40% lipids.
+(114) Answer :  (4)
+Hint:
+Kinetochore is the site where microtubules of spindle attach.
+Solution:
+On the side of centromere of chromosome, disc shaped structures are present known as kinetochore.
+(115) Answer :  (4)
+Hint:
+Some of the organelles function in a co-ordinated manner and constitute an endomembrane system.
+Solution:
+The organelles included in the endomembrane system are Endoplasmic reticulum, Golgi complex, L ysosomes and V acuoles.
+(116) Answer :  (2)
+Solution:
+At number of places the nuclear envelope is interrupted by minute pores, which are formed by the fusion of its two
+membranes.
+(117) Answer :  (3)
+Solution:
+Bacterial filament is composed of three parts – filament, hook and basal body .
+(118) Answer :  (2)
+Solution:
+Centrioles are absent in higher plants.
+(119) Answer :  (2)
+Hint:
+Secondary constriction is a non-staining region of SA T chromosome.
+Solution:
+Satellite is a region beyond secondary constriction in SA T chromosome.
+(120) Answer :  (2)
+Solution:
+Stroma lamellae are flat membranous tubules connecting dif ferent grana.
+Stroma is the space limited by inner membrane of the chloroplast. 
+Thylakoids are flattened membranous sacs present in the stroma of chloroplast.
+Grana are the thylakoids arranged in stacks. 
+(121) Answer :  (4)
+Solution:
+Viruses are exception to the cell theory as they are acellular .
+(122) Answer :  (2)
+Hint:
+Chitin is present in the cell wall of fungi.
+Solution:
+Algae have cell wall made of mannans, cellulose, galactans and minerals like calcium carbonate.
+(123) Answer :  (3)
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+20Hint:
+Smooth endoplasmic reticulum (SER) is free of ribosome.   
+Solution:
+Detoxification of drugs, muscle contraction, synthesis of steroids and lipids are the function of SER. Cell wall helps in cell to
+cell interaction.
+(124) Answer :  (4)
+Solution:
+In the given diagram, 
+A – Central sheath
+B – Central microtubule doublet
+C – Radial spoke
+D – Plasma membrane
+(125) Answer :  (3)
+Solution:
+Microtubules help in cell plate formation during plants cytokinesis.
+Formation of cleavage furrow during animal cell division occur with the help of microfilaments.
+(126) Answer :  (3)
+Hint:
+Inclusion bodies include phosphate granules, cyanophycean granules and glycogen granules.
+Solution:
+Contractile vacuole is an example of vacuole and it is a part of endomembrane system.
+(127) Answer :  (3)
+Solution:
+Gas vacuoles are found in blue-green and purple and green photosynthetic bacteria.
+(128) Answer :  (2)
+Solution:
+Golgi complex is involved in glycosylation of proteins.
+Contractile vacuole – Excretion
+RER –  Protein synthesis
+Amyloplast – Stores starch
+(129) Answer :  (3)
+Solution:
+Telomere does not represent primary constriction. T elomeres seal the ends of chromosomes and prevent their shortening or
+chromosome loss.
+(130) Answer :  (1)
+Solution:
+Mature sieve tube cell lacks nucleus.
+(131) Answer :  (2)
+Solution:
+Loose and indistinct network of nucleoprotein fibres present in interphase nucleus is called chromatin. 
+(132) Answer :  (1)
+Solution:
+Human cheek cell does not have cell wall, but cell of onion peel has cell wall.
+(133) Answer :  (2)
+Solution:
+Electron microscopic studies of eukaryotic cells reveal the presence of a network or reticulum of tiny tubular structures
+scattered in the cytoplasm that is called ER. Hence. Endoplasmic reticulum divides the intracellular space into two distinct
+compartments.
+(134) Answer :  (3)
+Hint:
+Fungal cell wall is made up of polymer of N-acetylglucosamine units.
+Solution:
+Primary cell wall of plant, gradually diminishes with maturity .
+(135) Answer :  (1)
+Solution:
+Integral proteins are partially or totally buried in the membrane.
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+21ZOOLOGY
+(136) Answer :  (1)
+Solution:
+Smooth muscle fibres are uninucleated and fusiform in shape.
+(137) Answer :  (4)
+Solution:
+Neuroglial cells support and protect neurons.
+(138) Answer :  (1)
+Solution:
+Goblet cells of alimentary canal are modified from columnar epithelial cells which secrete mucus.
+(139) Answer :  (4)
+Hint:
+Its cells are formed in bone marrow .
+Solution:
+Collagen or elastin fibres are absent in fluid connective tissue ( e.g., blood).
+(140) Answer :  (4)
+Solution:
+Skeletal connective tissue like bone and cartilage are supportive connective tissues.
+(141) Answer :  (4)
+Solution:
+Squamous epithelium forms the innermost layer of walls of blood vessels (endothelium), air sac (alveoli) of the lungs.
+(142) Answer :  (2)
+Solution:
+Adipose tissue is concerned with storage of fat.  
+Structural framework is provided by areolar tissue.
+(143) Answer :  (4)
+Solution:
+Smooth muscles have unstriated, uninucleated, and fusiform-shaped muscle fibres. They are present in the walls of blood
+vessels, stomach, intestine, etc., conversely , the heart has cardiac muscles, which are characterised by striated, cylindrical,
+branched, and uninucleated muscle fibres.  
+(144) Answer :  (4)
+Solution:
+The intercalated discs function as boosters of the contraction wave, permitting the wave of muscle contraction to be
+transmitted from one cardiac fibre to another . Thus, all the fibres contract as a single unit.
+(145) Answer :  (3)
+Solution:
+Bronchioles and oviducts are lined by simple ciliated columnar epithelium. Simple squamous epithelium is present in alveoli of
+lungs.
+(146) Answer :  (3)
+Solution:
+Cell junctions are also present in simple epithelial tissue, muscular tissue, etc.
+(147) Answer :  (2)
+Solution:
+Dendrites are af ferent processes whereas the axon is the ef ferent process of a neuron.
+(148) Answer :  (1)
+Solution:
+Neural tissue exerts the greatest control over the body's responsiveness to changing environmental conditions.
+(149) Answer :  (1)
+Solution:
+Fibres and fibroblasts are compactly packed in the dense connective tissues. Orientation of fibres show a regular or irregular
+pattern and are called dense regular and dense irregular connective tissues respectively .
+(150) Answer :  (3)
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+22Solution:
+The columnar epithelium composed of tall and slender cells with basal nuclei is found in the lining of stomach and intestine
+and helps in secretion and absorption.
+(151) Answer :  (2)
+Solution:
+Shortening and lengthening of the muscle fibres occur due to the property of contractility .
+Nerve fibres do not show contractility . Insulation in nerve fibres is provided by myelin sheath.
+(152) Answer :  (3)
+Solution:
+Epithelial tissue is avascular . Simple epithelial cells form a single layer . Compound epithelium lines the urinary bladder and
+ureters.
+(153) Answer :  (1)
+Solution:
+The only unicellular gland is goblet cell and rest of the glands are multicellular .
+(154) Answer :  (1)
+Hint:
+It serves as a support framework for epithelium.
+Solution:
+Areolar tissue is an example of loose connective tissue
+Dermis of skin possesses dense, irregular connective tissue
+Blood and bone are specialised connective tissues.
+(155) Answer :  (4)
+Solution:
+Tendons connect skeletal muscles to bones. They are categorised under dense regular connective tissue. 
+Presence of lamellae is the characteristic of bones.
+(156) Answer :  (4)
+Hint:
+Blood is a fluid connective tissue.
+Solution:
+In all connective tissues except blood, the cells secrete fibres of structural proteins called collagen or elastin. The fibres
+provide strength, elasticity and flexibility to the tissue. These cells also secrete modified polysaccharides.
+Areolar tissue contains fibroblasts, macrophages and mast cells.
+(157) Answer :  (1)
+Hint:
+Muscle fibres associated with limbs and heart are striped in appearance.
+Solution:
+Striated muscles include both cardiac and skeletal muscles. The alternate light and dark bands refer to the horizontal
+arrangement of actin and myosin filaments.
+(158) Answer :  (3)
+Hint:
+Skeletal muscle fibres show syncytium.
+Solution:
+Muscle fibres of biceps  Muscle fibres of heart
+Voluntary –Involuntary
+Unbranched –Branched
+Multinucleated –Uninucleated
+Striated –Striated
+(159) Answer :  (2)
+Hint:
+Identify a polymer of fructose.
+Solution:
+Inulin is obtained from the roots of plants like Dahlia . It is a polymer of fructose whereas starch, glycogen and cellulose are
+polymers of glucose.
+(160) Answer :  (1)
+Hint:
+Each glycosidic bond is formed by formation of one water molecule.
+Solution:
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+23Both X and Y are hexose sugars which join to form a disaccharide (Z) by formation and release of one water molecule. So,
+reaction will be
+(161) Answer :  (3)
+Solution:
+In a polysaccharide chain (like glycogen), the right end is called the reducing end and the left end is called the non-reducing
+end. The reducing end of a sugar has free aldehydic group, when its ring structure opens.
+(162) Answer :  (2)
+Solution:
+Living tissue forms thick slurry when grind with trichloroacetic acid. When slurry is strained through cheesecloth, yields two
+fractions: Acid-soluble pool (micromolecules) and acid-insoluble fraction (macromolecules).
+(163) Answer :  (3)
+Hint:
+Homopolymer of glucose
+Solution:
+Cellulose is a homopolysaccharide consisting of only one type of monosaccharide units i.e., glucose. Unlike starch, cellulose
+does not contain complex helices and hence, cannot hold I 2 molecules. Since it cannot hold I 2, it remains colourless during
+the test. 
+(164) Answer :  (4)
+Solution:
+Abrin and ricin are toxins. Concanavalin A is a lectin.
+(165) Answer :  (2)
+Solution:
+Silicon is present in negligible amount in human body .
+(166) Answer :  (3)
+Solution:
+Primary metabolites such as amino acids and sugars have identifiable functions in normal physiological processes.
+(167) Answer :  (2)
+Solution:
+A polysaccharide made of 458 glucose molecules have formed by 457 glycosidic bonds. When completely hydrolyzed, each
+glycosidic bond is broken by using one water molecule. So 457 water molecules will be consumed in the reaction.
+(168) Answer :  (3)
+Hint:
+This sugar is abundant in corn and grapes.
+Solution:
+Fructose is six carbon sugar with keto group. Ribose and deoxyribose are five carbon sugars with aldehyde group.
+(169) Answer :  (4)
+Solution:
+Component % of the total cellular mass
+Water 70-90
+Proteins 10-15
+Carbohydrates 3
+Lipids 2
+Nucleic acids 5-7
+Ions 1
+(170) Answer :  (3)
+Solution:
+In chitin, the basic unit is a nitrogen containing glucose derivative known as N-acetylglucosamine.
+(171) Answer :  (1)
+Solution:
+Macromolecules are present in the acid-insoluble fraction e.g., polysaccharides, proteins and nucleic acids.
+Micromolecules are present in the acid-soluble fraction e.g., amino acids, simple sugars and nucleotides. +   C6H12O6C6H12O6−→O–H
+2
+C12H22O11
+Fortnightly T est for NEET -2027 (XII Passed) Ph-2 - FT01B
+24(172) Answer :  (4)
+Solution:
+Both starch and cellulose are found in the retentate obtained upon the chemical analysis of a living tissue.
+The most abundant carbohydrate on Earth is cellulose. It is a complex polysaccharide found in the cell walls of plants and is
+the primary structural component of wood and cotton.
+Starch is a storage homopolysaccharide whereas cellulose is a structural homopolysaccharide. Starch contains complex
+helices in its structure.
+(173) Answer :  (2)
+Solution:
+While primary metabolites have identifiable functions and play known roles in normal physiological processes. The role or
+functions of all the 'secondary metabolites' in host organisms is still not understood at the moment. However , many of them
+are useful to 'human welfare' ( e.g., rubber , drugs, spices, scents and pigments). Some secondary metabolites have ecological
+importance.
+(174) Answer :  (1)
+Solution:
+Exoskeletons of arthropods have a complex homopolysaccharide called chitin. It’ s monomeric unit is N-acetyl glucosamine
+[NAG].
+(175) Answer :  (2)
+Solution:
+Nucleic acids serve as genetic material and constitute 5-7% of the total cellular mass.
+(176) Answer :  (2)
+Hint:
+The cells that secrete collagen or elastin are absent in blood.
+Solution:
+In all connective tissues, except blood, the cells secrete fibres of structural proteins called collagen or elastin. The fibres
+provide strength, elasticity and flexibility to the tissues.
+(177) Answer :  (4)
+Solution:
+Stratified epithelium has more than one layer . Due to the presence of mucus secreting goblet cells, columnar epithelium is
+also known as simple columnar glandular epithelium.
+(178) Answer :  (1)
+Solution:
+Glycogen and starch are homopolymers of glucose. Starch is a storage polysaccharide is case of plants while glycogen is a
+storage polysaccharide in case of animals.
+(179) Answer :  (4)
+Solution:
+Cellulose is the most abundant structural polysaccharide in nature and is also a secondary metabolite categorised as a
+polymeric substance.
+(180) Answer :  (2)
+Solution:
+Element % weight of human body
+Hydrogen 9.5
+Carbon 18.5
+Oxygen 65.0
+Calcium 1.5
+ 
