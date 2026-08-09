@@ -44,6 +44,7 @@ app.use('/api/products', require('./routes/products'))
 app.use('/api/users',    require('./routes/users'))
 app.use('/api/orders',   require('./routes/orders'))
 app.use('/api/upload',   require('./routes/upload'))
+app.use('/api/cbt',      require('./routes/cbt'))
 
 // Health check
 app.get('/api/health', (req, res) => res.json({ status: 'OK', db: 'connected' }))

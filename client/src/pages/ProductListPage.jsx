@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom'
 import { load } from '@cashfreepayments/cashfree-js'
 import { getProducts, API_URL } from '../store/store'
 import { useReveal } from '../hooks'
@@ -82,6 +82,50 @@ export function ProductCard({ product, purchased = false, onAlreadyPurchased }) 
   )
 }
 
+/* ── CBT Test Card ── */
+function CBTCard({ test }) {
+  const navigate = useNavigate()
+  const ref = useRef(null)
+  const visible = useReveal(ref)
+
+  return (
+    <div
+      ref={ref}
+      className={`product-card reveal${visible ? ' visible' : ''}`}
+      style={{ cursor: 'default' }}
+    >
+      <div className="pc-thumb" style={{ background: 'linear-gradient(135deg, #4F46E5 0%, #7C3AED 100%)' }}>
+        <span style={{ fontSize: '2.5rem' }}>📝</span>
+        <span className="pc-badge" style={{ background: '#10B981' }}>CBT LIVE</span>
+      </div>
+      <div className="pc-body">
+        <div className="pc-tag">{test.exam} · {test.subject}</div>
+        <div className="pc-title">{test.title}</div>
+        <div className="pc-desc" style={{ display:'-webkit-box', WebkitLineClamp:2, WebkitBoxOrient:'vertical', overflow:'hidden' }}>
+          {test.description}
+        </div>
+        <div className="pc-rating">
+          <span style={{ fontSize: '.78rem', color: '#6B7280' }}>
+            ⏱ {test.durationMinutes} min &nbsp;·&nbsp; {test.questions?.length} Questions
+          </span>
+        </div>
+        <div className="pc-footer">
+          <div>
+            <span className="pc-price" style={{ color: '#10B981' }}>FREE</span>
+          </div>
+          <button
+            className="pc-buy"
+            style={{ background: 'linear-gradient(135deg,#4F46E5,#7C3AED)', boxShadow: '0 4px 12px rgba(79,70,229,.35)' }}
+            onClick={() => navigate(`/cbt/${test._id}`)}
+          >
+            Start Test →
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 const TYPE_META = {
   notes:       { label: 'Notes',       tag: 'NOTES',       emoji: '📝', desc: 'Chapter-wise, exam-focused notes by subject experts' },
   book:        { label: 'Books',       tag: 'BOOKS',       emoji: '📚', desc: 'PYQ books, reference books and eBooks — instant digital access' },
@@ -109,8 +153,9 @@ const SORTS    = [
  * filterType: 'notes' | 'book' | 'test_series'
  * filterExam:  'NEET'  | 'JEE' | 'Boards'
  */
-export default function ProductListPage({ filterType, filterExam }) {
+export default function ProductListPage({ filterType, filterExam, defaultTab = 'products' }) {
   const [all, setAll]                   = useState([])
+  const [cbtTests, setCbtTests]         = useState([])
   const [purchasedIds, setPurchasedIds] = useState(new Set())
   const [exam, setExam]                 = useState('All')
   const [subject, setSubject]           = useState('All')
@@ -126,9 +171,11 @@ export default function ProductListPage({ filterType, filterExam }) {
     }
     setSearchParams(params, { replace: true })
   }
-  const [toast, setToast]               = useState(false)
+  const [toast, setToast]         = useState(false)
+  const [activeTab, setActiveTab] = useState(defaultTab)
 
   const meta = filterType ? TYPE_META[filterType] : EXAM_META[filterExam]
+  const isTestSeriesPage = filterType === 'test_series'
 
   useEffect(() => {
     getProducts().then(setAll)
@@ -143,6 +190,15 @@ export default function ProductListPage({ filterType, filterExam }) {
       })
       .catch(() => {})
   }, [])
+
+  // Fetch CBT tests only when on the Test Series page
+  useEffect(() => {
+    if (!isTestSeriesPage) return
+    fetch(`${API_URL}/cbt`)
+      .then(r => r.json())
+      .then(data => { if (Array.isArray(data)) setCbtTests(data) })
+      .catch(() => {})
+  }, [isTestSeriesPage])
 
   const showToast = () => { setToast(true); setTimeout(() => setToast(false), 3500) }
 
@@ -196,56 +252,122 @@ export default function ProductListPage({ filterType, filterExam }) {
           </div>
         </div>
 
-        {/* Filters row */}
-        <div style={{ display:'flex', gap:8, flexWrap:'wrap', paddingTop:16, paddingBottom:14 }}>
-          {/* Search */}
-          <div style={{ display:'flex', alignItems:'center', gap:7, background:'#F9FAFB', border:'1px solid #E5E7EB', borderRadius:8, padding:'7px 12px', flex:1, minWidth:180 }}>
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input
-              placeholder="Search..."
-              value={search}
-              onChange={e => setSearch(e.target.value)}
-              style={{ border:'none', background:'none', outline:'none', fontSize:'.83rem', color:'#111827', width:'100%', fontFamily:'Inter,sans-serif' }}
-            />
+        {/* Tab Switcher — only for Test Series */}
+        {isTestSeriesPage && (
+          <div style={{ display: 'flex', gap: 4, marginTop: 16 }}>
+            <button
+              onClick={() => setActiveTab('products')}
+              style={{
+                padding: '9px 20px', border: 'none', cursor: 'pointer',
+                fontWeight: 700, fontSize: '.85rem', transition: 'all .2s',
+                background: activeTab === 'products' ? '#fff' : 'transparent',
+                color: activeTab === 'products' ? '#4F46E5' : '#6B7280',
+                borderBottom: activeTab === 'products' ? '2px solid #4F46E5' : '2px solid transparent',
+              }}
+            >
+              📦 Test Series Packs
+            </button>
+            <button
+              onClick={() => setActiveTab('cbt')}
+              style={{
+                padding: '9px 20px', border: 'none', cursor: 'pointer',
+                fontWeight: 700, fontSize: '.85rem', transition: 'all .2s',
+                background: activeTab === 'cbt' ? '#fff' : 'transparent',
+                color: activeTab === 'cbt' ? '#4F46E5' : '#6B7280',
+                borderBottom: activeTab === 'cbt' ? '2px solid #4F46E5' : '2px solid transparent',
+                position: 'relative',
+              }}
+            >
+              📝 CBT Tests
+              {cbtTests.length > 0 && (
+                <span style={{
+                  marginLeft: 6, background: '#4F46E5', color: '#fff',
+                  borderRadius: 12, padding: '1px 7px', fontSize: '.65rem', fontWeight: 800,
+                }}>
+                  {cbtTests.length}
+                </span>
+              )}
+            </button>
           </div>
-          {/* Exam filter — only show when not already filtered by exam */}
-          {!filterExam && (
-            <select value={exam} onChange={e => setExam(e.target.value)} style={selStyle}>
-              {EXAMS.map(e => <option key={e}>{e}</option>)}
+        )}
+
+        {/* Filters row — only for products tab */}
+        {(!isTestSeriesPage || activeTab === 'products') && (
+          <div style={{ display:'flex', gap:8, flexWrap:'wrap', paddingTop:16, paddingBottom:14 }}>
+            <div style={{ display:'flex', alignItems:'center', gap:7, background:'#F9FAFB', border:'1px solid #E5E7EB', borderRadius:8, padding:'7px 12px', flex:1, minWidth:180 }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" strokeWidth="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <input
+                placeholder="Search..."
+                value={search}
+                onChange={e => setSearch(e.target.value)}
+                style={{ border:'none', background:'none', outline:'none', fontSize:'.83rem', color:'#111827', width:'100%', fontFamily:'Inter,sans-serif' }}
+              />
+            </div>
+            {!filterExam && (
+              <select value={exam} onChange={e => setExam(e.target.value)} style={selStyle}>
+                {EXAMS.map(e => <option key={e}>{e}</option>)}
+              </select>
+            )}
+            <select value={subject} onChange={e => setSubject(e.target.value)} style={selStyle}>
+              {SUBJECTS.map(s => <option key={s}>{s}</option>)}
             </select>
-          )}
-          <select value={subject} onChange={e => setSubject(e.target.value)} style={selStyle}>
-            {SUBJECTS.map(s => <option key={s}>{s}</option>)}
-          </select>
-          <select value={sort} onChange={e => setSort(e.target.value)} style={selStyle}>
-            {SORTS.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
-          </select>
-        </div>
+            <select value={sort} onChange={e => setSort(e.target.value)} style={selStyle}>
+              {SORTS.map(s => <option key={s.value} value={s.value}>{s.label}</option>)}
+            </select>
+          </div>
+        )}
+
+        {isTestSeriesPage && activeTab === 'cbt' && <div style={{ height: 14 }} />}
       </div>
 
       {/* Results */}
       <div style={{ padding:'20px 24px 48px' }}>
-        <div style={{ fontSize:'.78rem', color:'#6B7280', marginBottom:14 }}>
-          {items.length} result{items.length !== 1 ? 's' : ''}
-        </div>
 
-        {items.length === 0 ? (
-          <div className="empty-state">
-            <div className="empty-state-icon">🔍</div>
-            <h3>No results found</h3>
-            <p>Try adjusting your filters or search term.</p>
-          </div>
-        ) : (
-          <div className="cards-grid">
-            {items.map(p => (
-              <ProductCard
-                key={p._id}
-                product={p}
-                purchased={purchasedIds.has(p._id)}
-                onAlreadyPurchased={showToast}
-              />
-            ))}
-          </div>
+        {/* CBT Tab Content */}
+        {isTestSeriesPage && activeTab === 'cbt' && (
+          <>
+            <div style={{ fontSize:'.78rem', color:'#6B7280', marginBottom:14 }}>
+              {cbtTests.length} Computer Based Test{cbtTests.length !== 1 ? 's' : ''} available
+            </div>
+            {cbtTests.length === 0 ? (
+              <div className="empty-state">
+                <div className="empty-state-icon">📝</div>
+                <h3>No CBT Tests yet</h3>
+                <p>CBT tests will appear here once published by the admin.</p>
+              </div>
+            ) : (
+              <div className="cards-grid">
+                {cbtTests.map(t => <CBTCard key={t._id} test={t} />)}
+              </div>
+            )}
+          </>
+        )}
+
+        {/* Products Tab Content */}
+        {(!isTestSeriesPage || activeTab === 'products') && (
+          <>
+            <div style={{ fontSize:'.78rem', color:'#6B7280', marginBottom:14 }}>
+              {items.length} result{items.length !== 1 ? 's' : ''}
+            </div>
+            {items.length === 0 ? (
+              <div className="empty-state">
+                <div className="empty-state-icon">🔍</div>
+                <h3>No results found</h3>
+                <p>Try adjusting your filters or search term.</p>
+              </div>
+            ) : (
+              <div className="cards-grid">
+                {items.map(p => (
+                  <ProductCard
+                    key={p._id}
+                    product={p}
+                    purchased={purchasedIds.has(p._id)}
+                    onAlreadyPurchased={showToast}
+                  />
+                ))}
+              </div>
+            )}
+          </>
         )}
       </div>
     </>

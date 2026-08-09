@@ -12,9 +12,10 @@ import AdminUsers from './pages/admin/AdminUsers'
 import AdminOrders from './pages/admin/AdminOrders'
 import AdminUpload from './pages/admin/AdminUpload'
 import AdminMyUploads from './pages/admin/AdminMyUploads'
+import AdminCBT from './pages/admin/AdminCBT'
 import AdminGuard from './components/AdminGuard'
 import ProductListPage from './pages/ProductListPage'
-import OMRScanner from './pages/OMRScanner'
+import CBTTestRunner from './pages/CBTTestRunner'
 import './App.css'
 
 function PlaceholderPage({ title }) {
@@ -82,12 +83,12 @@ function MainLayout() {
             <Route path="/purchases"   element={<MyPurchases />} />
             <Route path="/notes"       element={<ProductListPage filterType="notes" />} />
             <Route path="/test-series" element={<ProductListPage filterType="test_series" />} />
+            <Route path="/cbt-tests"   element={<ProductListPage filterType="test_series" defaultTab="cbt" />} />
             <Route path="/books"       element={<ProductListPage filterType="book" />} />
             <Route path="/neet"        element={<ProductListPage filterExam="NEET" />} />
             <Route path="/jee"         element={<ProductListPage filterExam="JEE" />} />
             <Route path="/boards"      element={<ProductListPage filterExam="Boards" />} />
             <Route path="/saved"       element={<PlaceholderPage title="Saved Items" />} />
-            <Route path="/omr"         element={<OMRScanner />} />
             <Route path="*"            element={<PlaceholderPage title="Page Not Found" />} />
           </Routes>
         </main>
@@ -108,7 +109,10 @@ export default function App() {
         <Route path="/admin/my-uploads" element={<AdminGuard><AdminLayout><AdminMyUploads /></AdminLayout></AdminGuard>} />
         <Route path="/admin/orders"     element={<AdminGuard><AdminLayout><AdminOrders /></AdminLayout></AdminGuard>} />
         <Route path="/admin/users"      element={<AdminGuard><AdminLayout><AdminUsers /></AdminLayout></AdminGuard>} />
+        <Route path="/admin/cbt"        element={<AdminGuard><AdminLayout><AdminCBT /></AdminLayout></AdminGuard>} />
         <Route path="/admin/settings"   element={<AdminGuard><AdminLayout><PlaceholderPage title="Settings" /></AdminLayout></AdminGuard>} />
+
+        <Route path="/cbt/:id"          element={<CBTTestRunner />} />
 
         {/* Standalone auth pages — NO sidebar/navbar */}
         <Route path="/login"  element={<Login />} />

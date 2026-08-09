@@ -11,6 +11,7 @@ const NAV = [
   { group: 'Management' },
   { to: '/admin/orders',      icon: '🧾',  label: 'Orders'         },
   { to: '/admin/users',       icon: '👥',  label: 'Users'          },
+  { to: '/admin/cbt',         icon: '📝',  label: 'CBT Tests'      },
   { group: 'System' },
   { to: '/admin/settings',    icon: '⚙',  label: 'Settings'       },
 ]
@@ -22,6 +23,7 @@ const PAGE_TITLES = {
   '/admin/my-uploads': 'My Uploads',
   '/admin/orders':     'Orders',
   '/admin/users':      'Users',
+  '/admin/cbt':        'CBT Tests',
   '/admin/settings':   'Settings',
 }
 
